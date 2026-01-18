@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Manikanden - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background: #1e1e1e;
+            color: #fff;
+            padding: 20px;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .sidebar p, .sidebar a {
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            color: #1e90ff;
+        }
+
+        /* Main content */
+        .main {
+            flex: 1;
+            padding: 30px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: #1e90ff;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a.button:hover {
+            background: #0b66c3;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                text-align: center;
+            }
+            .main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="images/profile.jpg" alt="Pooja Manikanden">
+            <h2>Pooja Manikanden</h2>
+            <p>Phone: 9345615633</p>
+            <p>Email: poojam@student.tce.edu</p>
+            <p>
+                
+                <a href="https://www.linkedin.com/in/pooja-manikandan-90aa20314/" target="_blank">LinkedIn</a> | 
+                <a href="https://yourwebsite.com" target="_blank">Website</a>
+            </p>
+            <p><a class="button" href="Pooja_Resume.pdf" download>Download Resume</a></p>
+        </div>
+
+        <!-- Main content -->
+        <div class="main">
+            <!-- Career Objective -->
+            <section>
+                <h3>Career Objective</h3>
+                <p>B.Tech Information Technology student with a strong interest in networking and IT operations. 
+                Eager to understand how system components interconnect and how enterprise digital infrastructure 
+                functions through networks. Seeking an internship opportunity to gain practical exposure and 
+                develop hands-on skills in a professional IT environment.</p>
+            </section>
+
+            <!-- Skills -->
+            <section>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Operating Systems: Linux (basic command-line usage)</li>
+                    <li>Scripting: Bash scripting (basic)</li>
+                    <li>Programming: Java (basic), Python, C</li>
+                    <li>Web Technologies: HTML, CSS, JavaScript, PHP</li>
+                    <li>Tools: Git, VS Code</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Soft Skills & Languages</h3>
+                <ul>
+                    <li>Communication and interpersonal skills</li>
+                    <li>Willingness to learn and adapt to new technologies</li>
+                    <li>Problem-solving and analytical thinking</li>
+                    <li>Team collaboration</li>
+                    <li>Time management</li>
+                    <li>Languages: English (fluent), Tamil, Hindi (conversational), Kannada (native)</li>
+                </ul>
+            </section>
+
+            <!-- Projects -->
+            <section>
+                <h3>Projects</h3>
+                <ul>
+                    <li>CPU Scheduler Simulator - HTML, CSS, JavaScript
+                        <ul>
+                            <li>Implemented FCFS, SJF, Priority, and Round Robin scheduling algorithms</li>
+                            <li>Visualized execution order and performance metrics</li>
+                        </ul>
+                    </li>
+                    <li>Accident Prevention System for Unmanned Level Crossings - AGPS, GSM
+                        <ul>
+                            <li>Proposed a safety solution using AGPS and GSM to alert vehicles at unmanned railway crossings and prevent accidents</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Internship & Workshops -->
+            <section>
+                <h3>Internship & Certifications / Workshops</h3>
+                <ul>
+                    <li>Full Stack Developer Intern - Brightspot Technology Solutions Pvt. Ltd., Coimbatore (1 Month)
+                        <ul>
+                            <li>Gained hands-on exposure to frontend and backend web development</li>
+                            <li>Worked with web technologies and understood full-stack application flow</li>
+                        </ul>
+                    </li>
+                    <li>BE10X AI Workshop - Participated in an AI-focused workshop to understand the use of AI tools for improving productivity and efficiency</li>
+                    <li>ICBAI 2025 Conference Participant - Research paper selected and presented at the ICBAI 2025 international conference</li>
+                </ul>
+            </section>
+
+            <!-- Education -->
+            <section>
+                <h3>Education</h3>
+                <ul>
+                    <li>B.Tech - Information Technology | Thiagarajar College of Engineering, Madurai (2024 - 2028) | CGPA: 8.98</li>
+                    <li>Higher Secondary (12th) | Vidya Nethra Matric Hr. Sec. School (2023 - 2024) | Percentage: 96.5%</li>
+                    <li>Secondary (10th) | Vidya Nethra Matric Hr. Sec. School (2022 - 2023) | Percentage: 98%</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
